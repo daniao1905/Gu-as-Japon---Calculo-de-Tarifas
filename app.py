@@ -44,7 +44,7 @@ else:
                         extras = 5 * 10000 + (personas - 10) * 5000
                     base += extras
             else:  # Asistente
-                base = 65000 if is_completo else 32500  # Fijo, sin importar personas
+                base = 80000 if is_completo else 40000  # Fijo, sin importar personas
 
             extra_fee = horas_extra * 5000
             total = base + extra_fee
